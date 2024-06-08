@@ -4,6 +4,9 @@
 #ifndef BOARD_H
 #define BOARD_H
 
+#include <vector>
+#include <iostream>
+
 
 /// \class Board
 /// \brief Manages the Tic Tac Toe board
@@ -32,6 +35,13 @@ public:
 	/// \return True if the game is a draw, false otherwise
 	bool checkDraw();
 
+	/// \brief Gets the available moves on the board
+	/// \return A vector of available moves as pairs of row and column indices
+	std::vector<std::pair<int, int>> getAvailableMoves();
+
+	/// \brief Getter for the board array
+	/// \return The 2D array representing the board
+	const char(&getBoard() const)[3][3]; // getter for the board array
 
 private:
 	static const int SIZE = 3;  ///< The size of the board (3x3)
