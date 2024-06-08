@@ -17,6 +17,7 @@ This project is a console-based implementation of the classic Tic Tac Toe game. 
 ## Features
 
 - Two-player mode
+- Player vs AI
 - Interactive console-based interface
 - Detects win and draw conditions
 - Easy to understand and extend
