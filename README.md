@@ -9,9 +9,6 @@ A simple Tic Tac Toe game implemented in C++.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Game Rules](#game-rules)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
